@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap');
+
+
+.btn {
+  background: #0AB3AC
+  ;
+}
+
+.btn:hover, .btn-link:hover {
+  box-shadow:
+   #101010 -8px 8px 0px -3px,
+   #0AB3AC -8px 8px;
+}
+
+.gradient,
+.active {
+  background: #0AB3AC
+  ;
+}
+
+.active {
+  color: #101010;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.navitem:hover{
+  border-color: #0AB3AC;
+  border-radius: 100%;
+  border-width: 2px;
+  color:#0AB3AC;
+
+}
+
+@layer base {
+  body {
+    @apply font-secondary text-lg leading-8 text-white;
+  }
+  .h2 {
+    @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase font-semibold;
+  }
+  .h3 {
+    @apply font-primary font-semibold text-[26px] leading-[46px];
+  }
+  .btn {
+    @apply rounded-full font-primary text-black font-bold;
+  }
+  .btn-sm {
+    @apply h-[48px] px-6 text-sm;
+  }
+  .btn-lg {
+    @apply h-[56px] px-10 text-base;
+  }
+  .btn-link {
+    @apply text-base rounded-full border-accent border-4 p-4 px-10;
+  }
+
+  .section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+  }
+
+  .navitem {
+    @apply cursor-pointer w-[60px] h-[60px] flex items-center justify-center;
+  }
+
+  .countup  {
+    @apply text-[40px] font-tertiary mb-2 text-accent;
+  }
+}
