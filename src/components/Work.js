@@ -7,7 +7,7 @@ import Img3 from '../assets/portfolio-img3.png';
 
 const Work = () => {
   return (
-  <section className='section' id='work'>
+  <section className='section z-10' id='work'>
     <div className='container mx-auto'>
       <div className='flex flex-col lg:flex-row gap-x-10'>
         <motion.div 
@@ -27,7 +27,8 @@ const Work = () => {
             </p>
             <button className='btn btn-sm'>View all projects</button>
           </div> 
-         {/* image */ }         
+         {/* image */ }
+         <a href="https://projects-two-rosy.vercel.app/" target='_blank'>         
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
             {/* overlay */ }
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
@@ -42,6 +43,7 @@ const Work = () => {
               <span className='text-3xl text.white'>Project Title</span>
              </div>
           </div> 
+          </a>
         </motion.div>
         <motion.div 
         variants={fadeIn('left', 0.2)}
@@ -51,6 +53,7 @@ const Work = () => {
         className='flex-1 flex flex-col gap-y-10'
         >
           {/*image*/}
+        <a href="https://car-showcase-pearl-psi.vercel.app/"> 
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
             {/* overlay */ }
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
@@ -65,6 +68,7 @@ const Work = () => {
               <span className='text-3xl text.white'>Project Title</span>
              </div>
           </div> 
+          </a>
            {/*image*/}
            <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
             {/* overlay */ }

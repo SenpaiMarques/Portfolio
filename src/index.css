@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap');
 
 
+
 .btn {
   background: #0AB3AC
   ;
@@ -33,6 +34,47 @@
   border-width: 2px;
   color:#0AB3AC;
 
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+
+  50% {
+    scale: 1 1.5;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+
+#bgblob {
+  background-color: white;
+  height: 200px;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50% ;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(
+    to right,
+    #2ce7e1,
+    #d39700
+  );
+  animation: rotate 20s infinite;
+  filter: blur(70px);
+  z-index: 1;
+  
+}
+
+#blur{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  backdrop-filter: blur(200px);
 }
 
 @layer base {

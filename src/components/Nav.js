@@ -6,7 +6,7 @@ import { Link} from 'react-scroll'
 
 const Nav = () => {
   return (
-    <nav className='fixed top-0 left-4 h-screen flex justify-center items-center overflow-hidden z-50'>
+    <nav className='fixed top-0 left-4 h-screen flex justify-center items-center overflow-hidden z-50 max-md:hidden'>
       <div className="container my-auto">
         <div className='h-full bg-black/20 backdrop-blur-2xl rounded-full mx-auto p-4 flex flex-col justify-between text-2xl text-white items-center gap-1'>
           <Link 
