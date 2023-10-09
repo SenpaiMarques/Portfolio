@@ -1,0 +1,43 @@
+{
+    "Book a meeting":"Marca uma reunião",
+
+
+    "I am a": "Eu Sou um",
+    "Contact me":"Contacte-me",
+    "My Portfolio":"O meu Portfolio",
+    "Banner_text": "A minha paixão é criar soluções digitais elegantes e funcionais. \n Gosto de desafios e de transformar problemas complexos em experiências fáceis de utilizar.",
+    
+    
+    
+    "About Me": "Sobre Mim",
+    "About_title1": "Sou um Programador Front-end com um",
+    "About_title2": "para Web-Design",
+    "About_text": "No mundo dinâmico do desenvolvimento web, a aprendizagem é um esforço permanente e estou sempre a explorar novas tecnologias e tendências de design para me manter na vanguarda da minha área..",
+    "Projects Completed":"Projectos Concluídos",
+    "Lines of Code": "Linhas de Código",
+
+
+    "What I do": "O que faço",
+    "Do_title":" Sou um programador de software com uma paixão por front-end e web-design.",
+    "See my work": "Ver o meu trabalho",
+    "Learn More": " Saiba mais",
+    "Development": "Desenvolvimento",
+    "Digital Marketing": "Marketing Digital",
+    "Do_Dev_text": "Sou especialista em desenvolvimento web, criando sites robustos e de alto desempenho e aplicações web com código limpo e eficiente.",
+    "Do_Design_text": "A minha paixão é criar interfaces visualmente cativantes e fáceis de utilizar que dão prioridade à experiência do utilizador.",
+    "Do_Marketing_text":"Sou excelente em marketing digital, combinando criatividade e estratégias baseadas em dados para envolver o público e gerar resultados.",
+
+
+    "My Latest Work": "O meu trabalho mais recente",
+    "View all projects": "Ver todos os projetos",
+    "Work_text": "Explore os meus projectos mais recentes, onde pus em prática os meus conhecimentos de desenvolvimento, design UI/UX e marketing. Cada projeto é um testemunho do meu compromisso com a inovação e a excelência no mundo em constante evolução da tecnologia e do design da Web. ",
+    "Web Development": "Desenvolvimento Web",
+    
+
+    "Get In Touch": "Entrar em contacto",
+    "Lets Work Together": "Vamos trabalhar juntos!",
+    "Your name": "O teu nome",
+    "Your email": "O teu email",
+    "Your message": "A tua mensagem",
+    "Send Message": "Envia Mensagem"
+}

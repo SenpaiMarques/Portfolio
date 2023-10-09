@@ -4,9 +4,15 @@ import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import { BsEye } from 'react-icons/bs';
+import { useTranslation } from 'react-i18next';
+import i18next from "i18next"
 
 
 const About = () => {
+  const {t} = useTranslation();
+  const handleClick=(e)=>{
+      i18next.changeLanguage(e.target.value)
+  }
   const [ref, inView] = useInView({
     threshold: 0.5,
   })
@@ -28,13 +34,13 @@ const About = () => {
           whileInView={"show"}
           viewport={{once: false, amount: 0.3}}
          className='flex-1'>
-          <h2 className='h2 text-accent'>About me.</h2>
-          <h3 className='h3 '>I'm a Front-end Developer with an </h3>
+          <h2 className='h2 text-accent'>{t('About Me')}</h2>
+          <h3 className='h3 '>{t('About_title1')} </h3>
           <div className='flex flex-row items-center mb-4'>
           <BsEye className='text-[32px] h-full mr-2'/> 
-          <h3 className='h3 '>for Web-design.</h3>
+          <h3 className='h3 '>{t('About_title2')}</h3>
           </div>
-          <p className='mb-6 '>In the dynamic world of web development, I embrace learning as a lifelong endeavor.I'm always exploring new technologies and design trends to stay at the forefront of my field.</p>
+          <p className='mb-6 '>{t('About_text')}</p>
           {/* stats */}
           <div className="flex gap-x-6 lg:gap-x-10 mb-12">
           <div>
@@ -46,8 +52,7 @@ const About = () => {
                 +
             </div >
             <div className='font-primary text-sm tracking-[2px]'>
-              Projects <br />
-              Completed
+            {t('Projects Completed')}
               </div>
           </div>
           <div>
@@ -59,16 +64,15 @@ const About = () => {
                 +
             </div >
             <div className='font-primary text-sm tracking-[2px]'>
-              Lines of <br />
-              Code
+            {t('Lines of Code')}
               </div>
           </div>
           
         </div>
         <div className='flex gap-x-8 items-center'>
-          <button className='btn btn-lg'>Contact me</button>
+          <button className='btn btn-lg'>{t('Contact Me')}</button>
           <a href='#' className='text-gradient btn-link text-accent'>
-            My Portfolio
+          {t('My Portfolio')}
           </a>
         </div>
         </motion.div>

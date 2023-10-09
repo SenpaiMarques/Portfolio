@@ -7,7 +7,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
-import BGBlob from './components/BGBlob';
+
 
 const App = () => {
   return (
@@ -22,6 +22,7 @@ const App = () => {
         <Services />
         <Work />
         <Contact />
+        
         
         </div>
       

@@ -1,3 +1,45 @@
 {
+    "Book a meeting":"Book a meeting",
+
+
+    "I am a": "I am a",
+    "Contact me":"Contact Me",
+    "My Portfolio":"My Portfolio",
+    "Banner_text": "I'm fueled by my passion for creating elegant and functional digital solutions. \n I thrive on challenges and enjoy turning complex problems into user-friendly experiences.",
     
+    
+    
+    "About Me": "About Me",
+    "About_title1": "I´m a Front-end Developer with an",
+    "About_title2": "for Web-Design",
+    "About_text": "In the dynamic world of web development, I embrace learning as a lifelong endeavor.I'm always exploring new technologies and design trends to stay at the forefront of my field.",
+    "Projects Completed":"Projects Completed",
+    "Lines of Code": "Lines of Code",
+
+
+    "What I do": "What I Do",
+    "Do_title":" I'm a software developer with a passion for front-end and web-design.",
+    "See my work": "See my work",
+    "Learn More": " Learn More",
+    "Development": "Development",
+    "Digital Marketing": "Digital Marketing",
+    "Do_Dev_text": "I specialize in web development,creating robust and high-performance websites and eb applications with clean, efficient code.",
+    "Do_Design_text": "My passion is crafting visually captivating and user-friendly interfaces that prioritize the user's experience.",
+    "Do_Marketing_text":" I excel in digital marketing, blending creativity and data-driven strategies to engage audiences and drive results.",
+
+
+    "My Latest Work": "My Latest Work",
+    "View all projects": "View all projects",
+    "Work_text": "Explore my latest projects, where I've put my development, UI/UX deisgn, and marketing expertise into action. Each project is a testament to my commitment to innovation and excellence in the ever-evolving world of web technology and design. ",
+    "Web Development": "Web Development",
+    
+
+    "Get In Touch": "Get In Touch",
+    "Lets Work Together": "Lets work together",
+    "Your name": "Your name",
+    "Your email": "Your email",
+    "Your message": "Your message",
+    "Send Message": "Send Message"
+
+
 }

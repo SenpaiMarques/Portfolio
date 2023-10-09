@@ -4,8 +4,14 @@ import { fadeIn } from '../variants';
 import Img1 from '../assets/portfolio-img1.png';
 import Img2 from '../assets/portfolio-img2.png';
 import Img3 from '../assets/portfolio-img3.png';
+import { useTranslation } from 'react-i18next';
+import i18next from "i18next"
 
 const Work = () => {
+  const {t} = useTranslation();
+  const handleClick=(e)=>{
+      i18next.changeLanguage(e.target.value)
+  }
   return (
   <section className='section z-10' id='work'>
     <div className='container mx-auto'>
@@ -19,13 +25,12 @@ const Work = () => {
           {/* text */ }
          <div>
             <h2 className='h2 leading-tight text-accent'>
-              My Latest <br/>
-              Work.
+            {t('My Latest Work')}
             </h2>
             <p className='max-w-s mb-8 text-[14px]'>
-               Explore my latest projects, where I'vve put my development, UI/UX deisgn, and marketing expertise into action. <br/> Each project is a testament to my commitment to innovation and excellence in the ever-evolving world of web technology and design.
+            {t('Work_text')}
             </p>
-            <button className='btn btn-sm'>View all projects</button>
+            <button className='btn btn-sm'>{t('View all projects')}</button>
           </div> 
          {/* image */ }
          <a href="https://car-showcase-pearl-psi.vercel.app/" target='_blank'>         
@@ -36,7 +41,7 @@ const Work = () => {
             <img className='group-hover:scale-125 transition-all duration-500'src={Img1} alt="" />
              {/* pretitle */ }
              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>Web Development</span>
+              <span className='text-gradient'>{t('Web Development')}</span>
               </div>
              {/* title */ }
              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
@@ -61,7 +66,7 @@ const Work = () => {
             <img className='group-hover:scale-125 transition-all duration-500'src={Img2} alt="" />
              {/* pretitle */ }
              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>Web Development</span>
+              <span className='text-gradient'>{t('Web Development')}</span>
               </div>
              {/* title */ }
              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
@@ -78,7 +83,7 @@ const Work = () => {
             <img className='group-hover:scale-125 transition-all duration-500'src={Img3} alt="" />
              {/* pretitle */ }
              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>Web Development</span>
+              <span className='text-gradient'>{t('Web Development')}</span>
               </div>
              {/* title */ }
              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
