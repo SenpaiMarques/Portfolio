@@ -91,4 +91,4 @@ const Banner = () => {
     </section>;
 };
 
-export default Banner;
+export default Banner; 
